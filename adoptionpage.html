@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>puppies!</title>
+</head>
+<body>
+    <h1>Puppy Adoption Page</h1>
+    <p> <strong>Please enter your information to adopt a puppy and we'll email you back.</strong></p>
+    <p>Please Note: First Name, Last Name, Password, and Email are required</p>
+
+    <form method = "get">
+        <label for="firstname">First Name:</label>
+        <input type="text" id="firstname" name="firstname" placeholder="First Name">
+        <label for="lastname">Last Name:</label>
+        <input type="text" id="lastname" name="lastname" placeholder="Last Name">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="name@email.com">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+
+        <!-- remember how to use the radio input type and the select input type -->
+        <br>
+        <p>Are you over the age of 18?</p>
+        <label for="yes">Yes:</label>
+        <input type="radio" name="age" id="yes" value="yes">
+        <label for="no">No:</label>
+        <input type="radio" name="age" id="no" value="no">
+
+        <br>
+        <p>Do you have a Credit Card or Paypal?</p>
+        <select name="payment" id="payment">
+            <option value="credit">Credit Card</option>
+            <option value="paypal">Paypal</option>
+        </select>
+
+        <br>
+        <br>
+        <input type="submit" value="Submit Feedback">
+    </form>
+</body>
+</html>
+
+
+  
